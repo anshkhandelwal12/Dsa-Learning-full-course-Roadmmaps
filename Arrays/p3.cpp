@@ -10,6 +10,7 @@ public class Main2 {
 
     }
 
+//     using for loop
     static boolean Search(String name, char target) {
         if (name.length() == 0)
         {
@@ -29,3 +30,23 @@ public class Main2 {
     }
 
 }
+
+// Using for each Loop
+
+static boolean(String name , int target)
+{
+    if(name.length() == 0)
+    {
+        return false;
+    }
+    
+    for(ch: str.toCharArray())
+    {
+        if(ch == target)
+        {
+            return true;
+        }
+    }
+    return false;
+}
+
